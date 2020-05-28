@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: rinoraju/nodejsbuilds:latest
+        image: rinoraju/sabeernodejs:v1.0
         ports:
         - containerPort: 3000
         livenessProbe:
